@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.SoBuoiLyThuyet_num = new System.Windows.Forms.NumericUpDown();
+            this.SoBuoiThucHanh_num = new System.Windows.Forms.NumericUpDown();
+            this.KinhPhi_num = new System.Windows.Forms.NumericUpDown();
+            this.GioiHanGiangVien_num = new System.Windows.Forms.NumericUpDown();
+            this.GioiHanSinhVien_num = new System.Windows.Forms.NumericUpDown();
+            this.LamMoi_ = new System.Windows.Forms.Button();
             this.Xoa_but = new System.Windows.Forms.Button();
             this.Sua_but = new System.Windows.Forms.Button();
             this.Them_but = new System.Windows.Forms.Button();
-            this.SoBuoiLyThuyet_txt = new System.Windows.Forms.TextBox();
-            this.SoBuoiThucHanh_txt = new System.Windows.Forms.TextBox();
-            this.KinhPhi_txt = new System.Windows.Forms.TextBox();
-            this.GioiHanGiangVien_txt = new System.Windows.Forms.TextBox();
-            this.GioiHanSinhVien_txt = new System.Windows.Forms.TextBox();
             this.ThoiGian_txt = new System.Windows.Forms.TextBox();
             this.TenKhoaHoc_txt = new System.Windows.Forms.TextBox();
             this.MaKhoaHoc_txt = new System.Windows.Forms.TextBox();
@@ -49,14 +50,16 @@
             this.TenKhoaHoc_lbl = new System.Windows.Forms.Label();
             this.MaKhoaHoc_lbl = new System.Windows.Forms.Label();
             this.DanhSachKhoaHoc_dgv = new System.Windows.Forms.DataGridView();
-            this.LamMoi_ = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SoBuoiLyThuyet_num)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoBuoiThucHanh_num)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KinhPhi_num)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GioiHanGiangVien_num)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GioiHanSinhVien_num)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DanhSachKhoaHoc_dgv)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -67,16 +70,15 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.numericUpDown1);
+            this.splitContainer1.Panel1.Controls.Add(this.SoBuoiLyThuyet_num);
+            this.splitContainer1.Panel1.Controls.Add(this.SoBuoiThucHanh_num);
+            this.splitContainer1.Panel1.Controls.Add(this.KinhPhi_num);
+            this.splitContainer1.Panel1.Controls.Add(this.GioiHanGiangVien_num);
+            this.splitContainer1.Panel1.Controls.Add(this.GioiHanSinhVien_num);
             this.splitContainer1.Panel1.Controls.Add(this.LamMoi_);
             this.splitContainer1.Panel1.Controls.Add(this.Xoa_but);
             this.splitContainer1.Panel1.Controls.Add(this.Sua_but);
             this.splitContainer1.Panel1.Controls.Add(this.Them_but);
-            this.splitContainer1.Panel1.Controls.Add(this.SoBuoiLyThuyet_txt);
-            this.splitContainer1.Panel1.Controls.Add(this.SoBuoiThucHanh_txt);
-            this.splitContainer1.Panel1.Controls.Add(this.KinhPhi_txt);
-            this.splitContainer1.Panel1.Controls.Add(this.GioiHanGiangVien_txt);
-            this.splitContainer1.Panel1.Controls.Add(this.GioiHanSinhVien_txt);
             this.splitContainer1.Panel1.Controls.Add(this.ThoiGian_txt);
             this.splitContainer1.Panel1.Controls.Add(this.TenKhoaHoc_txt);
             this.splitContainer1.Panel1.Controls.Add(this.MaKhoaHoc_txt);
@@ -95,6 +97,61 @@
             this.splitContainer1.Size = new System.Drawing.Size(1240, 736);
             this.splitContainer1.SplitterDistance = 549;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // SoBuoiLyThuyet_num
+            // 
+            this.SoBuoiLyThuyet_num.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SoBuoiLyThuyet_num.Location = new System.Drawing.Point(185, 420);
+            this.SoBuoiLyThuyet_num.Name = "SoBuoiLyThuyet_num";
+            this.SoBuoiLyThuyet_num.Size = new System.Drawing.Size(361, 22);
+            this.SoBuoiLyThuyet_num.TabIndex = 4;
+            // 
+            // SoBuoiThucHanh_num
+            // 
+            this.SoBuoiThucHanh_num.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SoBuoiThucHanh_num.Location = new System.Drawing.Point(185, 362);
+            this.SoBuoiThucHanh_num.Name = "SoBuoiThucHanh_num";
+            this.SoBuoiThucHanh_num.Size = new System.Drawing.Size(361, 22);
+            this.SoBuoiThucHanh_num.TabIndex = 4;
+            // 
+            // KinhPhi_num
+            // 
+            this.KinhPhi_num.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.KinhPhi_num.Location = new System.Drawing.Point(185, 306);
+            this.KinhPhi_num.Name = "KinhPhi_num";
+            this.KinhPhi_num.Size = new System.Drawing.Size(361, 22);
+            this.KinhPhi_num.TabIndex = 4;
+            // 
+            // GioiHanGiangVien_num
+            // 
+            this.GioiHanGiangVien_num.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GioiHanGiangVien_num.Location = new System.Drawing.Point(185, 249);
+            this.GioiHanGiangVien_num.Name = "GioiHanGiangVien_num";
+            this.GioiHanGiangVien_num.Size = new System.Drawing.Size(361, 22);
+            this.GioiHanGiangVien_num.TabIndex = 4;
+            // 
+            // GioiHanSinhVien_num
+            // 
+            this.GioiHanSinhVien_num.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GioiHanSinhVien_num.Location = new System.Drawing.Point(187, 193);
+            this.GioiHanSinhVien_num.Name = "GioiHanSinhVien_num";
+            this.GioiHanSinhVien_num.Size = new System.Drawing.Size(361, 22);
+            this.GioiHanSinhVien_num.TabIndex = 4;
+            // 
+            // LamMoi_
+            // 
+            this.LamMoi_.Location = new System.Drawing.Point(91, 520);
+            this.LamMoi_.Name = "LamMoi_";
+            this.LamMoi_.Size = new System.Drawing.Size(128, 41);
+            this.LamMoi_.TabIndex = 3;
+            this.LamMoi_.Text = "Làm Mới";
+            this.LamMoi_.UseVisualStyleBackColor = true;
+            this.LamMoi_.Click += new System.EventHandler(this.LamMoi__Click);
             // 
             // Xoa_but
             // 
@@ -124,56 +181,6 @@
             this.Them_but.Text = "Thêm";
             this.Them_but.UseVisualStyleBackColor = true;
             this.Them_but.Click += new System.EventHandler(this.Them_but_Click);
-            // 
-            // SoBuoiLyThuyet_txt
-            // 
-            this.SoBuoiLyThuyet_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SoBuoiLyThuyet_txt.Location = new System.Drawing.Point(187, 422);
-            this.SoBuoiLyThuyet_txt.Name = "SoBuoiLyThuyet_txt";
-            this.SoBuoiLyThuyet_txt.Size = new System.Drawing.Size(361, 22);
-            this.SoBuoiLyThuyet_txt.TabIndex = 1;
-            // 
-            // SoBuoiThucHanh_txt
-            // 
-            this.SoBuoiThucHanh_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SoBuoiThucHanh_txt.Location = new System.Drawing.Point(187, 361);
-            this.SoBuoiThucHanh_txt.Name = "SoBuoiThucHanh_txt";
-            this.SoBuoiThucHanh_txt.Size = new System.Drawing.Size(361, 22);
-            this.SoBuoiThucHanh_txt.TabIndex = 1;
-            // 
-            // KinhPhi_txt
-            // 
-            this.KinhPhi_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.KinhPhi_txt.Location = new System.Drawing.Point(187, 304);
-            this.KinhPhi_txt.Name = "KinhPhi_txt";
-            this.KinhPhi_txt.Size = new System.Drawing.Size(361, 22);
-            this.KinhPhi_txt.TabIndex = 1;
-            // 
-            // GioiHanGiangVien_txt
-            // 
-            this.GioiHanGiangVien_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.GioiHanGiangVien_txt.Location = new System.Drawing.Point(187, 249);
-            this.GioiHanGiangVien_txt.Name = "GioiHanGiangVien_txt";
-            this.GioiHanGiangVien_txt.Size = new System.Drawing.Size(361, 22);
-            this.GioiHanGiangVien_txt.TabIndex = 1;
-            // 
-            // GioiHanSinhVien_txt
-            // 
-            this.GioiHanSinhVien_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.GioiHanSinhVien_txt.Location = new System.Drawing.Point(187, 190);
-            this.GioiHanSinhVien_txt.Name = "GioiHanSinhVien_txt";
-            this.GioiHanSinhVien_txt.Size = new System.Drawing.Size(361, 22);
-            this.GioiHanSinhVien_txt.TabIndex = 1;
             // 
             // ThoiGian_txt
             // 
@@ -292,31 +299,16 @@
             this.DanhSachKhoaHoc_dgv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.DanhSachKhoaHoc_dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DanhSachKhoaHoc_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DanhSachKhoaHoc_dgv.Location = new System.Drawing.Point(3, 0);
             this.DanhSachKhoaHoc_dgv.Name = "DanhSachKhoaHoc_dgv";
+            this.DanhSachKhoaHoc_dgv.ReadOnly = true;
             this.DanhSachKhoaHoc_dgv.RowHeadersWidth = 51;
             this.DanhSachKhoaHoc_dgv.RowTemplate.Height = 24;
             this.DanhSachKhoaHoc_dgv.Size = new System.Drawing.Size(681, 733);
             this.DanhSachKhoaHoc_dgv.TabIndex = 0;
             this.DanhSachKhoaHoc_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // LamMoi_
-            // 
-            this.LamMoi_.Location = new System.Drawing.Point(91, 520);
-            this.LamMoi_.Name = "LamMoi_";
-            this.LamMoi_.Size = new System.Drawing.Size(128, 41);
-            this.LamMoi_.TabIndex = 3;
-            this.LamMoi_.Text = "Làm Mới";
-            this.LamMoi_.UseVisualStyleBackColor = true;
-            this.LamMoi_.Click += new System.EventHandler(this.LamMoi__Click);
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(91, 480);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 4;
             // 
             // QuanLyKhoaHoc_frm
             // 
@@ -334,8 +326,12 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SoBuoiLyThuyet_num)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoBuoiThucHanh_num)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KinhPhi_num)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GioiHanGiangVien_num)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GioiHanSinhVien_num)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DanhSachKhoaHoc_dgv)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -343,8 +339,6 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.TextBox GioiHanGiangVien_txt;
-        private System.Windows.Forms.TextBox GioiHanSinhVien_txt;
         private System.Windows.Forms.TextBox ThoiGian_txt;
         private System.Windows.Forms.TextBox TenKhoaHoc_txt;
         private System.Windows.Forms.TextBox MaKhoaHoc_txt;
@@ -357,13 +351,14 @@
         private System.Windows.Forms.Button Sua_but;
         private System.Windows.Forms.Button Them_but;
         private System.Windows.Forms.DataGridView DanhSachKhoaHoc_dgv;
-        private System.Windows.Forms.TextBox SoBuoiLyThuyet_txt;
-        private System.Windows.Forms.TextBox SoBuoiThucHanh_txt;
-        private System.Windows.Forms.TextBox KinhPhi_txt;
         private System.Windows.Forms.Label SoBuoiLyThuyet_lbl;
         private System.Windows.Forms.Label BuoiThucHanh_lbl;
         private System.Windows.Forms.Label KinhPhi_lbl;
         private System.Windows.Forms.Button LamMoi_;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown GioiHanSinhVien_num;
+        private System.Windows.Forms.NumericUpDown SoBuoiLyThuyet_num;
+        private System.Windows.Forms.NumericUpDown SoBuoiThucHanh_num;
+        private System.Windows.Forms.NumericUpDown KinhPhi_num;
+        private System.Windows.Forms.NumericUpDown GioiHanGiangVien_num;
     }
 }
